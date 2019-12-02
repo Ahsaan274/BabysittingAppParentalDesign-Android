@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Babysitting</string>
+    <string name="my_text">This is an <u>underline</u>.</string>
+    <string name="new_job_money">
+        This is an <u>underline</u>.
+    </string>
+</resources>

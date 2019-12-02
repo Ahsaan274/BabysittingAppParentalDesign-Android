@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/alrt_img1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ehsan"
+        ></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/aler_add_txtV2"
+        android:text="Bob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/alrt_img1"
+        app:layout_constraintTop_toTopOf="@id/alrt_img1"
+        app:layout_constraintBottom_toBottomOf="@id/alrt_img1"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/Alert_Add_desc"
+        android:text="2 year old allergic to peanuts"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/alrt_img1"
+        app:layout_constraintBottom_toBottomOf="@id/alrt_img1"
+        ></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

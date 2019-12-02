@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#f6f6f6">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/refItemImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ehsan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#6ab3a8"
+        ></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/refName"
+        android:background="@drawable/redius2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahsaan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="5dp"
+        android:layout_marginLeft="25dp"
+
+        app:layout_constraintTop_toBottomOf="@id/refItemImg"></TextView>
+    <RatingBar
+        android:theme="@style/RatingBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="200dp"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/refTxtView"
+        android:layout_width="300dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/simpleRatingBar"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="ahsaan is amazing!"
+
+        ></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

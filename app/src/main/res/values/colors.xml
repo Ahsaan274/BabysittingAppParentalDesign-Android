@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#199DD8</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="TabTextColor">#fff</color>
+    <color name="TabIndicatorColor">#CC8686</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="solidCircle">#fff</color>
+    <color name="BarColor">#F3F3F3</color>
+    <color name="tab_background_selected">#f9c732</color>
+    <color name="tab_background_Unselected">#ececec</color>
+    <color name="favourite_items">#f6f6f6</color>
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Announcements"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/cardview_dark_background"
+            android:padding="20dp" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/card_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/cardviewround"
+        android:padding="2dp"
+        android:gravity="center">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@drawable/cardviewround"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/item_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happy Monday! Check Below for more cool detail"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/cardview_dark_background"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marrisa!, You gonna die soon,Bring a Doctor."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Top 3 sitters of the week"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:background="@color/cardview_dark_background"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:text="Top 3 sitters of the week"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/imgUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <ImageView
+            android:gravity="center"
+            android:id="@+id/first"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/circle"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/logoman" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/redius2"
+            android:padding="3dp"
+            android:text="Ahsaan Ansari "
+
+
+            />
+
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/first"
+            android:background="@drawable/circle"
+            app:srcCompat="@drawable/logoman"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/first"
+            android:background="@drawable/redius2"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Ahsaan Ansari"
+
+            />
+
+        <ImageView
+            android:gravity="center"
+            android:id="@+id/third"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/second"
+            android:background="@drawable/circle"
+            app:srcCompat="@drawable/logoman" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/second"
+            android:background="@drawable/redius2"
+            android:text="Ahsaan Ansari"
+            android:padding="3dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Cool Stuff,deals going on around you"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/cardview_dark_background"
+            android:padding="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/cardviewround"
+            android:clickable="true">
+
+            <LinearLayout
+                android:id="@+id/bottomLayout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/cardviewround"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book a sitter saturday and go to big ketch for $10 off"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:background="@color/cardview_dark_background"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:text="get Started"
+        android:onClick="goToNext"/>
+
+</LinearLayout>
